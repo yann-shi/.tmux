@@ -479,6 +479,7 @@ bind n select-pane -t +
 bind s choose-tree -s -O name
 
 set -sg escape-time 10
+set-hook -g after-split-window "selectl even-horizontal"
 
 #=======================================================================
 # Plugins
